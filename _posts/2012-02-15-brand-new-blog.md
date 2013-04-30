@@ -14,5 +14,4 @@ I stole some design elements from the [official GitHub blog](https://github.com/
 
 Another great thing about GitHub pages is that you get a decent web-based editor for free as well as a version history of your posts and the possibility to work collaboratively.
 
-![Screenshot](/images/2012-02-15-screenshot.jpg)
 

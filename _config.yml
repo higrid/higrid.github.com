@@ -11,9 +11,7 @@ author:
 analytics: 'UA-30786953-1'
 
 repos:
-  - name: spin.js
-    description: A spinning activity indicator
-  - name: domino
-    description: A fast DOM implementation for Node
-  - name: node-dev
-    description: Zero-conf Node.js reloading
+  - name: higrid
+    description: php jqgrid
+  - name: higridcms
+    description: higrid cms and blog
