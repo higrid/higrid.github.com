@@ -48,11 +48,5 @@ You should now be able to ping `foo.dev` as well as any other `.dev` domain.
 
 ## Setting up the nameserver in your Virtual Machines
 
-The last step is to tell your VMs to use `10.0.2.2` as DNS-Server.
-Under Windows this looks like this:
 
-![Screenshot](/images/dns.jpg)
 
-If you spot an error please
-[create an issue](https://github.com/fgnass/fgnass.github.com/issues)
-or drop me a line on [twitter](http://twitter.com/fgnass).
