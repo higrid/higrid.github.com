@@ -1,0 +1,13 @@
+        html, body {
+        margin: 0;			/* Remove body margin/padding */
+    	padding: 0;
+        /*overflow: hidden;*/	/* Remove scroll bars on browser window */
+        font-size: 90%;
+        }
+		body {
+			font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+		}		
+		.ui-input  {padding :4px; margin: 1px;}
+		.ui-select  {padding : 3px;}
+		.ui-textarea {padding: 3px;}
+		#notsupported  { border: 0px none;}

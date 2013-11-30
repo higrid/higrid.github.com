@@ -1,0 +1,110 @@
+/*
+	printstyle.css
+	Copyright 2007 by Christopher Heng. All rights reserved.
+	http://www.thesitewizard.com/
+*/
+
+body {
+	background-color: white;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt ;
+}
+a:link, a:visited {
+	color: blue ;
+	background: transparent ;
+	text-decoration: underline ;
+}
+.maincontent a:link:after, .maincontent a:visited:after {
+	content: " (" attr(href) ") ";
+	font-family: "Times New Roman", Times, serif ;
+	font-size: 12pt;
+	font-style: italic ;
+	color: black ;
+	background-color: transparent ;
+}
+.newmaincontent a:link:after, .newmaincontent a:visited:after {
+	content: " (" attr(href) ") ";
+	font-family: "Times New Roman", Times, serif ;
+	font-size: 12pt;
+	font-style: italic ;
+	color: black ;
+	background-color: transparent ;
+}
+ul {
+	margin-left: 0 ;
+	padding-left: 1.1em ;
+	list-style-type: disc ;
+}
+ol {
+	margin-left: 0 ;
+	padding-left: 1.5em ;
+}
+ol.content {
+	margin-left: 0 ;
+	padding-left: 2.5em ;
+}
+ol.content li {
+	margin-bottom: 1.5em ;
+}
+ul.content {
+	margin-left: 0 ;
+	padding-left: 1.1em ;
+	list-style-type: disc ;
+}
+ul.content li {
+	margin-bottom: 1.5em ;
+}
+ol.content2 {
+	margin-left: 0 ;
+	padding-left: 1.1em ;
+}
+ol.content2 li {
+	margin-bottom: 1.5em ;
+	list-style-type: lower-alpha ;
+}
+ul.listoflinks {
+	margin-left: 0 ;
+	margin-top: 0 ;
+	margin-bottom: 0 ;
+	padding-left: 1.1em ;
+	list-style-type: disc ;
+}
+ul.listoflinks li {
+	margin-top: 0 ;
+	margin-bottom: 0 ;
+}
+
+div.sidepanel {
+	display: none ;
+}
+div.toptitle {
+	display: none ;
+}
+div.newtoptitle {
+	display: none ;
+}
+div.codeblock {
+	border: 1px solid green;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12pt ;
+	padding: 8px 8px 8px 8px ;
+}
+div.copyright {
+	padding: 2px ;
+	border-top: 1px solid #c0c0c0 ;
+	border-right: 1px solid #333 ;
+	border-bottom: 1px solid #333 ;
+	border-left: 1px solid #c0c0c0 ;
+}
+.noprint {
+	display: none ;
+}
+div#breadcrumbs {
+	padding-left: 8px ;
+	padding-right: 8px ;
+	color: black ;
+	background-color: white ;
+	border: 1px solid black ;
+	margin-bottom: 12px ;
+}
